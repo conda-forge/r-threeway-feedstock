@@ -1,11 +1,11 @@
-About r-threeway
-================
+About r-threeway-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-threeway-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=ThreeWay
 
 Package license: GPL (>= 2)
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-threeway-feedstock/blob/main/LICENSE.txt)
 
 Summary: Component analysis for three-way data arrays by means of Candecomp/Parafac, Tucker3, Tucker2 and Tucker1 models.
 

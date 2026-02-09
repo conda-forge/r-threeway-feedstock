@@ -1,4 +1,4 @@
-{% set version = '1.1.3' %}
+{% set version = "1.1.4" %}
 
 package:
   name: r-threeway
@@ -8,12 +8,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ThreeWay_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ThreeWay/ThreeWay_{{ version }}.tar.gz
-  sha256: e6d7ac36ed14dcc38968427261904dd5b682baa45a1307d8f0912701f047d49f
+  sha256: 96ae2be53dee8be86be9836ad2d0910589b2bd18ef8b15e7df7524cb8b7c15f1
 
 build:
   noarch: generic
-  merge_build_host: True  # [win]
-  number: 1006
+  merge_build_host: true  # [win]
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -32,8 +32,7 @@ test:
 about:
   home: https://CRAN.R-project.org/package=ThreeWay
   license: GPL (>= 2)
-  summary: Component analysis for three-way data arrays by means of Candecomp/Parafac, Tucker3,
-    Tucker2 and Tucker1 models.
+  summary: Component analysis for three-way data arrays by means of Candecomp/Parafac, Tucker3, Tucker2 and Tucker1 models.
   license_family: GPL3
   license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
